@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="devqa_task_2023.TaskTests" time="26.082" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1257"/>
+    <property name="java.class.path" value="C:\Users\henrilaa\Desktop\Development_QA_Engineer_Intern_Task\target\test-classes;C:\Users\henrilaa\Desktop\Development_QA_Engineer_Intern_Task\target\classes;C:\Users\henrilaa\.m2\repository\org\seleniumhq\selenium\selenium-java\3.7.1\selenium-java-3.7.1.jar;C:\Users\henrilaa\.m2\repository\org\seleniumhq\selenium\selenium-api\3.7.1\selenium-api-3.7.1.jar;C:\Users\henrilaa\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.7.1\selenium-chrome-driver-3.7.1.jar;C:\Users\henrilaa\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.7.1\selenium-edge-driver-3.7.1.jar;C:\Users\henrilaa\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.7.1\selenium-firefox-driver-3.7.1.jar;C:\Users\henrilaa\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.7.1\selenium-ie-driver-3.7.1.jar;C:\Users\henrilaa\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.7.1\selenium-opera-driver-3.7.1.jar;C:\Users\henrilaa\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.7.1\selenium-remote-driver-3.7.1.jar;C:\Users\henrilaa\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.7.1\selenium-safari-driver-3.7.1.jar;C:\Users\henrilaa\.m2\repository\org\seleniumhq\selenium\selenium-support\3.7.1\selenium-support-3.7.1.jar;C:\Users\henrilaa\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\henrilaa\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\henrilaa\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\henrilaa\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\henrilaa\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\henrilaa\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\henrilaa\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\henrilaa\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\henrilaa\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\henrilaa\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\henrilaa\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\henrilaa\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\henrilaa\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\henrilaa\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Tallinn"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="EE"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\henrilaa\AppData\Local\Temp\surefire1570304100064327093\surefirebooter4611977626322959430.jar C:\Users\henrilaa\AppData\Local\Temp\surefire1570304100064327093 2023-03-25T18-25-50_737-jvmRun1 surefire9602590565762047996tmp surefire_09268108539145312281tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\henrilaa\Desktop\Development_QA_Engineer_Intern_Task\target\test-classes;C:\Users\henrilaa\Desktop\Development_QA_Engineer_Intern_Task\target\classes;C:\Users\henrilaa\.m2\repository\org\seleniumhq\selenium\selenium-java\3.7.1\selenium-java-3.7.1.jar;C:\Users\henrilaa\.m2\repository\org\seleniumhq\selenium\selenium-api\3.7.1\selenium-api-3.7.1.jar;C:\Users\henrilaa\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.7.1\selenium-chrome-driver-3.7.1.jar;C:\Users\henrilaa\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.7.1\selenium-edge-driver-3.7.1.jar;C:\Users\henrilaa\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.7.1\selenium-firefox-driver-3.7.1.jar;C:\Users\henrilaa\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.7.1\selenium-ie-driver-3.7.1.jar;C:\Users\henrilaa\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.7.1\selenium-opera-driver-3.7.1.jar;C:\Users\henrilaa\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.7.1\selenium-remote-driver-3.7.1.jar;C:\Users\henrilaa\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.7.1\selenium-safari-driver-3.7.1.jar;C:\Users\henrilaa\.m2\repository\org\seleniumhq\selenium\selenium-support\3.7.1\selenium-support-3.7.1.jar;C:\Users\henrilaa\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\henrilaa\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\henrilaa\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\henrilaa\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\henrilaa\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\henrilaa\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\henrilaa\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\henrilaa\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\henrilaa\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\henrilaa\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\henrilaa\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\henrilaa\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\henrilaa\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\henrilaa\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\henrilaa"/>
+    <property name="user.language" value="et"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\henrilaa\Desktop\Development_QA_Engineer_Intern_Task"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\henrilaa\AppData\Local\Temp\surefire1570304100064327093\surefirebooter4611977626322959430.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.name" value="henrilaa"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1257"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\henrilaa\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\henrilaa\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2020.3.3"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="C:\Users\henrilaa\Desktop\Development_QA_Engineer_Intern_Task"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\IDEMIA\AWP\Dlls;C:\Program Files\IDEMIA\AWP\Dlls;C:\Program Files\SQL Anywhere 17\bin64;C:\Program Files\SQL Anywhere 17\bin32;C:\Program Files\Git\cmd;C:\Users\henrilaa\Downloads\gradle-7.2-bin\gradle-7.2\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Program Files\Git LFS;c:\jruby-9.3.4.0\bin;C:\Users\henrilaa\AppData\Local\Microsoft\WindowsApps;C:\Users\henrilaa\AppData\Local\GitHubDesktop\bin;C:\Users\henrilaa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\henrilaa\AppData\Roaming\npm;C:\Program Files\heroku\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="isPositionShown" classname="devqa_task_2023.TaskTests" time="13.317">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at devqa_task_2023.TaskTests.isPositionShown(TaskTests.java:10)
+]]></failure>
+    <system-out><![CDATA[Result written to file successfully.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 30837
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+märts 25, 2023 6:25:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="isPositionShownCoordinates" classname="devqa_task_2023.TaskTests" time="12.729">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at devqa_task_2023.TaskTests.isPositionShownCoordinates(TaskTests.java:16)
+]]></failure>
+    <system-out><![CDATA[Result written to file successfully.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 10716
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+märts 25, 2023 6:26:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: devqa_task_2023.TaskTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 26.082 s <<< FAILURE! - in devqa_task_2023.TaskTests
+devqa_task_2023.TaskTests.isPositionShown  Time elapsed: 13.317 s  <<< FAILURE!
+java.lang.AssertionError
+	at devqa_task_2023.TaskTests.isPositionShown(TaskTests.java:10)
+
+devqa_task_2023.TaskTests.isPositionShownCoordinates  Time elapsed: 12.729 s  <<< FAILURE!
+java.lang.AssertionError
+	at devqa_task_2023.TaskTests.isPositionShownCoordinates(TaskTests.java:16)
+
