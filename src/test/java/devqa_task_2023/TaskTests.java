@@ -4,15 +4,17 @@ import org.junit.Test;
 
 public class TaskTests extends TestHelper {
 
+    private static final String POSITION_NAME = "Development QA Engineer (Intern)";
+
     @Test
-    public void isPositionShown() {
-        goToPage("INTERNSHIP");
-        verifyIfPositionIsShown("Development QA Engineer (Intern)");
+    public void verifyPositionShownOnInternshipPage() {
+        navigateToInternshipPage();
+        verifyIfPositionIsShown(POSITION_NAME);
     }
 
     @Test
-    public void isPositionShownCoordinates() {
-        goToPageByCoordinatesClick();
-        verifyIfPositionIsShown("Development QA Engineer (Intern)");
+    public void verifyPositionShownOnPageUsingCoordinates() {
+        navigateToPageByCoordinatesClick();
+        verifyIfPositionIsShown(POSITION_NAME);
     }
 }
