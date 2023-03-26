@@ -13,7 +13,7 @@ One test clicks the INTERNSHIP tab using driver.findElement(By.linkText("INTERNS
 **Before running the program:**
 
 * Install chromedriver.exe first: https://chromedriver.chromium.org/downloads
-* Change the chromedriver.exe path in the setUp() function of the TestHelper.java class.
+* Change the chromedriver.exe path in the TestHelper.java class.
 
 **Running the tests:**
 
