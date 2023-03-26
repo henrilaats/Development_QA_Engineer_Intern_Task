@@ -57,7 +57,7 @@ public class TestHelper {
     /**
      * MAIN TASK: 3. Verify if the “Development QA Engineer (Intern)” position is shown on the page.
      */
-    void verifyIfPositionIsShown(String POSITION_NAME) {
+    void verifyIfPositionIsShown() {
         WebElement offerSection = driver.findElement(By.xpath("//section[@id='app']"));
         List<WebElement> offers = offerSection.findElements(By.xpath("//*[contains(text(),'" + POSITION_NAME + "')]"));
 
