@@ -8,7 +8,7 @@ To verify if the "Development QA Engineer (Intern)" is shown on INTERNSHIP tab a
 ### Solution
 
 The project includes two unit tests in the TaskTests.java class. 
-One test clicks the INTERNSHIP tab using driver.findElement(By.linkText(page)), and the other one uses coordinates to click on the INTERNSHIP tab.
+One test clicks the INTERNSHIP tab using driver.findElement(By.linkText("INTERNSHIP")), and the other one uses coordinates to click on the INTERNSHIP tab.
 
 **Before running the program:**
 
